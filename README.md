@@ -25,8 +25,8 @@
   <img src="https://img.shields.io/badge/Website-00C853?style=for-the-badge&logoColor=white&labelColor=111111" alt="Website"/>
 </a>
 &nbsp;
-<a href="https://dfleet.com.br/">
-  <img src="https://img.shields.io/badge/Solu%C3%A7%C3%B5es-2C2C2C?style=for-the-badge&logoColor=white&labelColor=111111" alt="Soluções"/>
+<a href="https://www.linkedin.com/company/dfleet-rastreamento-e-telemetria-veicular/">
+  <img src="https://img.shields.io/badge/LinkedIn-2C2C2C?style=for-the-badge&logo=linkedin&logoColor=00C853&labelColor=111111" alt="LinkedIn"/>
 </a>
 &nbsp;
 <a href="https://wa.me/5514997340187">
