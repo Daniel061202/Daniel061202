@@ -1,31 +1,56 @@
-<svg width="880" height="220" viewBox="0 0 880 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DFleet Banner">
+<svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DFleet Fleet Intelligence Platform">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#111111"/>
-      <stop offset="100%" stop-color="#2C2C2C"/>
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="55%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#1C1C1C"/>
     </linearGradient>
     <linearGradient id="grn" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#00C853"/>
-      <stop offset="100%" stop-color="#00E676"/>
+      <stop offset="100%" stop-color="#69F0AE"/>
     </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#00C853" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#00C853" stop-opacity="0"/>
+    </radialGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="880" height="220" rx="18" fill="url(#bg)"/>
-  <g stroke="#00C853" stroke-width="1" opacity="0.12">
-    <line x1="0" y1="55" x2="880" y2="55"/>
-    <line x1="0" y1="110" x2="880" y2="110"/>
-    <line x1="0" y1="165" x2="880" y2="165"/>
-    <line x1="220" y1="0" x2="220" y2="220"/>
-    <line x1="440" y1="0" x2="440" y2="220"/>
-    <line x1="660" y1="0" x2="660" y2="220"/>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#halo)"/>
+
+  <g stroke="#00C853" stroke-width="1" opacity="0.06">
+    <line x1="0" y1="72" x2="1280" y2="72"/>
+    <line x1="0" y1="144" x2="1280" y2="144"/>
+    <line x1="0" y1="216" x2="1280" y2="216"/>
+    <line x1="0" y1="288" x2="1280" y2="288"/>
+    <line x1="160" y1="0" x2="160" y2="360"/>
+    <line x1="320" y1="0" x2="320" y2="360"/>
+    <line x1="960" y1="0" x2="960" y2="360"/>
+    <line x1="1120" y1="0" x2="1120" y2="360"/>
   </g>
-  <polyline points="60,150 180,110 300,130 420,80 540,100 660,60 800,90" fill="none" stroke="url(#grn)" stroke-width="3" filter="url(#glow)"/>
+
+  <polyline points="0,300 120,270 240,285 360,235 480,255 600,200 720,225 840,175 960,205 1080,155 1200,185 1280,150"
+            fill="none" stroke="url(#grn)" stroke-width="2.5" opacity="0.55" filter="url(#glow)"/>
   <g fill="#00C853" filter="url(#glow)">
-    <circle cx="180" cy="110" r="4"/><circle cx="420" cy="80" r="4"/><circle cx="660" cy="60" r="4"/>
+    <circle cx="360" cy="235" r="3.5"/><circle cx="600" cy="200" r="3.5"/>
+    <circle cx="840" cy="175" r="3.5"/><circle cx="1080" cy="155" r="3.5"/>
   </g>
-  <text x="440" y="105" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">DFleet</text>
-  <text x="440" y="140" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="15" letter-spacing="6" fill="#EAEAEA">FLEET INTELLIGENCE PLATFORM</text>
+
+  <text x="640" y="150" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="800" fill="#FFFFFF" letter-spacing="-1">DFleet</text>
+  <rect x="560" y="172" width="160" height="3" rx="1.5" fill="url(#grn)"/>
+  <text x="640" y="212" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#EAEAEA" letter-spacing="1">Fleet Intelligence Platform</text>
+  <text x="640" y="248" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#8A8A8A" letter-spacing="5">TRANSFORMANDO DADOS EM DECIS&#213;ES INTELIGENTES</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">
+    <rect x="470" y="285" width="110" height="30" rx="15" fill="none" stroke="#00C853" stroke-opacity="0.4"/>
+    <text x="525" y="304" text-anchor="middle" fill="#00C853">DESDE 2012</text>
+    <rect x="590" y="285" width="140" height="30" rx="15" fill="none" stroke="#00C853" stroke-opacity="0.4"/>
+    <text x="660" y="304" text-anchor="middle" fill="#00C853">+1.000 VE&#205;CULOS</text>
+    <rect x="740" y="285" width="70" height="30" rx="15" fill="none" stroke="#00C853" stroke-opacity="0.4"/>
+    <text x="775" y="304" text-anchor="middle" fill="#00C853">JA&#218;/SP</text>
+  </g>
 </svg>
