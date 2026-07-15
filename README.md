@@ -21,16 +21,16 @@
 <br/>
 
 <!-- HERO BUTTONS -->
-<a href="https://www.dfleet.com.br">
+<a href="https://dfleet.com.br/">
   <img src="https://img.shields.io/badge/Website-00C853?style=for-the-badge&logoColor=white&labelColor=111111" alt="Website"/>
 </a>
 &nbsp;
-<a href="https://www.dfleet.com.br">
+<a href="https://dfleet.com.br/">
   <img src="https://img.shields.io/badge/Solu%C3%A7%C3%B5es-2C2C2C?style=for-the-badge&logoColor=white&labelColor=111111" alt="Soluções"/>
 </a>
 &nbsp;
-<a href="https://www.dfleet.com.br">
-  <img src="https://img.shields.io/badge/Contato-00C853?style=for-the-badge&logoColor=white&labelColor=111111" alt="Contato"/>
+<a href="https://wa.me/5514997340187">
+  <img src="https://img.shields.io/badge/WhatsApp-00C853?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=111111" alt="WhatsApp"/>
 </a>
 
 <br/><br/>
@@ -231,7 +231,9 @@ flowchart TD
 
 <br/>
 
-<a href="https://www.dfleet.com.br"><img src="https://img.shields.io/badge/www.dfleet.com.br-00C853?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111111"/></a>
+<a href="https://dfleet.com.br/"><img src="https://img.shields.io/badge/dfleet.com.br-00C853?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111111"/></a>
+&nbsp;
+<a href="https://wa.me/5514997340187"><img src="https://img.shields.io/badge/WhatsApp%20(14)%2099734--0187-2C2C2C?style=for-the-badge&logo=whatsapp&logoColor=00C853&labelColor=111111"/></a>
 
 <br/><br/>
 
